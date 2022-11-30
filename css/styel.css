@@ -1,0 +1,81 @@
+*{
+   margin:0 ;
+   padding: 0;
+   border:0 ;
+}
+
+#admin-box{
+   background-color: rgb(97, 204, 204);
+   color: black;
+   text-align: center;
+   width: 50%;
+   margin: 20%auto;
+   padding: 30px; ;
+border-radius: 10px;
+
+}
+
+#admin-box h1{
+   font-size: 35px;
+   text-transform: capitalize;
+
+}
+
+.admin-img{
+width: 150px;
+
+}
+
+input{
+background-color:transparent ;
+color: black;
+border: 1px solid black;
+display: block;
+margin: auto;
+padding: 10px;
+border-radius: 5px;
+}
+
+body{
+
+   background-color: rgb(42, 136, 165);
+}
+
+p{
+   font-size: 18px;
+}
+
+p a{
+   text-decoration: none;
+   color:rgb(42, 136, 165); 
+   text-transform: capitalize;
+   width: 20px;
+   height: 20px;
+}
+
+input[type="submit"]{
+   background-color:rgb(42, 136, 165); 
+   margin: 20px auto;
+   width: 25%;
+ 
+}
+
+input[ type="submit"]:hover{
+background-color: transparent;
+transition: ease-in-out 0.5S;
+/* margin-top: 20px auto; */
+/* width: 25%; */
+
+}
+
+
+input:focus{
+
+   background-color:rgb(3, 48, 48);
+   
+}
+
+input::placeholder{
+color: black;
+}
+
